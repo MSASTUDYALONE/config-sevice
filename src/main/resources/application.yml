@@ -17,15 +17,15 @@ spring:
         native:
           search-locations: file:///${user.home}/Desktop/MSA_STUDY/native-file-repo
 
-        git:
+#        git:
 #          uri: file:///Users/lsi66/Desktop/MSA_STUDY/git-local-repo
-          uri: https://github.com/MSASTUDYALONE/spring-cloud-config.git #.git 생략 가능
+#          uri: https://github.com/MSASTUDYALONE/spring-cloud-config.git #.git 생략 가능
 #          username: (private면 적어야함..)
 #          password:
 
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health,busrefresh
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: health, busrefresh

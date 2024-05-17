@@ -1,2 +1,6 @@
 encrypt:
-  key: abcdefghijklmnopqrstuvwxyz0123456789
+#  key: abcdefghijklmnopqrstuvwxyz0123456789  # 이건 대칭키일 때 사용
+  key-store:
+    location: file:///${user.home}/Desktop/MSA_STUDY/keystore/apiEncryptionKey.jks
+    password: test1234
+    alias: apiEncryptionKey
